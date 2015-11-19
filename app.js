@@ -18,7 +18,7 @@ loopbutton.onclick = function () {
   islooped = !islooped;
   video.loop = islooped;
   loopbutton.innerHTML = islooped ? "Loop : On":"Loop : Off";//Se usa para no poner if= ? else=:
-
+};
 
 video.onended = function(e){
   if (!islooped) {
