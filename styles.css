@@ -3,7 +3,7 @@ html{
 }
 .video-container{
   padding: 6px;
-  background-color: #fff;
+  background-color: #9C9C9C;
   border-radius: 5px;
   overflow: hidden;
   display: inline-block;
@@ -12,4 +12,12 @@ html{
 video{
   height: 320px;
   border-radius: 5px;
+}
+
+h1{
+  color: #0F7F00;
+  font-family: serif;
+  font-size: 35px;
+
+
 }
